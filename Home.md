@@ -18,4 +18,4 @@ There's two steps:
 2. Run msiexec (example: `_<path_to_steam>_/steamapps/common/Proton\ 5.13/dist/bin/wine64 msiexec /i _<path_to_msi>_/wine-mono-5.1.1_ED-x86.msi`
 
 # Known Issues
-The launcher does not close properly; the window will close but it will keep running in the background. You need to press 'Close' in Steam to force it to close.
+The launcher does not always close properly; the window will close but it will keep running in the background. You need to press 'Close' in Steam to force it to close.
