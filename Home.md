@@ -18,8 +18,10 @@ There's two steps:
 2. Run msiexec (example: `_<path_to_steam>_/steamapps/common/Proton\ 5.13/dist/bin/wine64 msiexec /i _<path_to_msi>_/wine-mono-5.1.1_ED-x86.msi`
 
 # Known Issues
+## Launcher Closing
 The launcher does not always close properly; the window will close but it will keep running in the background. You need to press 'Close' in Steam to force it to close.
 
+## Logging in
 You can not currently manually log-in. Clicking the log-in button causes the launcher to crash. To make use of this launcher you need to already be logged in either by:
 1. linking your frontier account with your steam account (so log-in is automatic); or
 2. logging in using dotnet (and then uninstalling dotnet and installing this... but, you know, if you've already got dotnet working ¯\\_(ツ)_/¯)
