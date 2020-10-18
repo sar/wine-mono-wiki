@@ -5,7 +5,7 @@ You can install:
 1. [with protontricks](#with-protontricks); or
 2. [manually](#manually)
 
-But with both options you must [download](https://github.com/redmcg/wine-mono/releases/download/wine-mono-5.1.1_ED/wine-mono-5.1.1_ED-x86.msi) the install msi. You should also start with a clean prefix (by deleting or moving the existing one).
+But with both options you must [download](https://github.com/redmcg/wine-mono/releases/download/wine-mono-5.1.1.1_ED/wine-mono-5.1.1.1_ED-x86.msi) the install msi. You should also start with a clean prefix (by deleting or moving the existing one).
 
 ## with protontricks
 There's two steps:
