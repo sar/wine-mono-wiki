@@ -22,6 +22,7 @@ There's two steps:
 The launcher does not always close properly; the window will close but it will keep running in the background. You need to press 'Close' in Steam to force it to close.
 
 ## Logging in
+**This should be fixed in wine-mono-5.1.1.1_ED**
 You can not currently manually log-in. Clicking the log-in button causes the launcher to crash. To make use of this launcher you need to already be logged in either by:
 1. linking your frontier account with your steam account (so log-in is automatic); or
 2. logging in using dotnet (and then uninstalling dotnet and installing this... but, you know, if you've already got dotnet working ¯\\_(ツ)_/¯)
