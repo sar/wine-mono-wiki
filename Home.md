@@ -11,7 +11,7 @@ But with both options you must [download](https://github.com/redmcg/wine-mono/re
 There's four steps:
 1. click 'Play' and let the game launch and fail;
 2. `protontricks -c 'wine64 uninstaller' 359320`
-3. Uninstall any existing version of 'Wine Mono Runtime'
+3. Uninstall any existing version of 'Wine Mono Runtime' (by selecting it and clicking 'Remove')
 4. Click 'Install...' and select wine-mono-5.1.1.2_ED-x86.msi
 
 ## manually
