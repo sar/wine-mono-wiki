@@ -5,17 +5,19 @@ You can install:
 1. [with protontricks](#with-protontricks); or
 2. [manually](#manually)
 
-But with both options you must [download](https://github.com/redmcg/wine-mono/releases/download/wine-mono-5.1.1.1_ED/wine-mono-5.1.1.1_ED-x86.msi) the install msi. You should also start with a clean prefix (by deleting or moving the existing one).
+But with both options you must [download](https://github.com/redmcg/wine-mono/releases/download/wine-mono-5.1.1.2_ED/wine-mono-5.1.1.2_ED-x86.msi) the install msi. You should also start with a clean prefix (by deleting or moving the existing one).
 
 ## with protontricks
-There's two steps:
+There's four steps:
 1. click 'Play' and let the game launch and fail;
-2. `protontricks -c 'msiexec /i _<path_to_msi>_/wine-mono-5.1.1.1_ED-x86.msi' 359320`
+2. `protontricks -c 'wine64 uninstaller' 359320`
+3. Uninstall any existing version of 'Wine Mono Runtime'
+4. Click 'Install...' and select wine-mono-5.1.1.2_ED-x86.msi
 
 ## manually
 There's two steps:
 1. Set your wine prefix (example: `export WINEPREFIX=_<path_to_steam>_/steamapps/compatdata/359320/pfx`); and
-2. Run msiexec (example: `_<path_to_steam>_/steamapps/common/Proton\ 5.13/dist/bin/wine64 msiexec /i _<path_to_msi>_/wine-mono-5.1.1.1_ED-x86.msi`
+2. Run msiexec (example: `_<path_to_steam>_/steamapps/common/Proton\ 5.13/dist/bin/wine64 msiexec /i _<path_to_msi>_/wine-mono-5.1.1.2_ED-x86.msi`
 
 # Known Issues
 ## Launcher Closing
