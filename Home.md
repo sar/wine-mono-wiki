@@ -8,7 +8,7 @@ You can install either of these:
 1. [with protontricks](#with-protontricks); or
 2. [manually](#manually)
 
-But with both options you must the install msi:
+But with both options you must the install msi. Below are links to download the:
 1. [custom msi](https://github.com/redmcg/wine-mono/releases/download/wine-mono-5.1.1.2_ED/wine-mono-5.1.1.2_ED-x86.msi); or
 2. [official msi](https://github.com/madewokherd/wine-mono/releases/download/wine-mono-6.1.0/wine-mono-6.1.0-x86.msi)
 
