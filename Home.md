@@ -1,11 +1,21 @@
 # Install
-With Proton version 5.13, you can use a custom version of wine-mono instead of dotnet.
+With Proton version 5.13, you can use:
+* a custom version of wine-mono; or
+* the official wine-mono release (6.1 or later)
+instead of dotnet.
 
-You can install:
+You can install either of these:
 1. [with protontricks](#with-protontricks); or
 2. [manually](#manually)
 
-But with both options you must [download](https://github.com/redmcg/wine-mono/releases/download/wine-mono-5.1.1.2_ED/wine-mono-5.1.1.2_ED-x86.msi) the install msi. You should also start with a clean prefix (by deleting or moving the existing one).
+But with both options you must the install msi:
+1. [custom msi](https://github.com/redmcg/wine-mono/releases/download/wine-mono-5.1.1.2_ED/wine-mono-5.1.1.2_ED-x86.msi); or
+2. [official msi](https://github.com/madewokherd/wine-mono/releases/download/wine-mono-6.1.0/wine-mono-6.1.0-x86.msi)
+
+Note that the official msi currently requires the manual creation of the 'evidencehere' directory. Otherwise you will get the following error:
+
+
+You should also start with a clean prefix (by deleting or moving the existing one).
 
 ## with protontricks
 There's four steps:
