@@ -13,9 +13,10 @@ But with both options you must the install msi:
 2. [official msi](https://github.com/madewokherd/wine-mono/releases/download/wine-mono-6.1.0/wine-mono-6.1.0-x86.msi)
 
 Note that the official msi currently requires the manual creation of the 'evidencehere' directory. Otherwise you will get the following error:
+
 ![](https://user-images.githubusercontent.com/8346438/112704443-b7168880-8eee-11eb-8bc3-d32c7e7c964c.png)
 
-You should also start with a clean prefix (by deleting or moving the existing one).
+Note that if were using dotnet previously, you should start with a clean prefix (by deleting or moving the existing one).
 
 ## with protontricks
 There's four steps:
