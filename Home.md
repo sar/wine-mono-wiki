@@ -16,7 +16,7 @@ Note that the official msi currently requires the manual creation of the 'eviden
 
 ![](https://user-images.githubusercontent.com/8346438/112704443-b7168880-8eee-11eb-8bc3-d32c7e7c964c.png)
 
-Note that if were using dotnet previously, you should start with a clean prefix (by deleting or moving the existing one).
+Note that if you were using dotnet previously, you should start with a clean prefix (by deleting or moving the existing one).
 
 ## with protontricks
 There's four steps:
