@@ -2,6 +2,7 @@
 With Proton version 5.13, you can use:
 * a custom version of wine-mono; or
 * the official wine-mono release (6.1 or later)
+
 instead of dotnet.
 
 You can install either of these:
