@@ -14,7 +14,7 @@ You install the customer version of wine-mono either:
 1. [with protontricks](#with-protontricks); or
 2. [manually](#manually)
 
-But you must the install msi. Below is the link to wine-mono version 6.1.0_ED:
+But you must first download the msi. Below is the link to wine-mono version 6.1.0_ED:
 [custom msi](https://github.com/redmcg/wine-mono/releases/download/wine-mono-6.1.0_ED/wine-mono-6.1.0_ED-x86.msi)
 
 Note that if you were previously using dotnet, you should start with a clean prefix (by deleting or moving the existing one).
