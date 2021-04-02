@@ -10,7 +10,7 @@ Without creating this directory you will see the following error:
 You can alternatively use a custom version of wine-mono, which will create this directory for you automatically.
 
 # Install Custom Version
-You can do this either:
+You install the customer version of wine-mono either:
 1. [with protontricks](#with-protontricks); or
 2. [manually](#manually)
 
