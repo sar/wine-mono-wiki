@@ -11,7 +11,7 @@ You may also see the following exception:
 
 ![image](https://user-images.githubusercontent.com/8346438/113377991-956f4280-93c1-11eb-857b-3cd1e2f08065.png)
 
-But this can be safely ignored (by clicking 'continue').
+But this can be safely ignored (by clicking 'Continue').
 
 You can alternatively use a custom version of wine-mono, which will create this directory for you automatically.
 
