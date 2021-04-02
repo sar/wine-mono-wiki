@@ -1,21 +1,21 @@
-# Install
-With Proton version 5.13, you can use:
-* a custom version of wine-mono; or
-* the official wine-mono release (6.1 or later)
+# Default wine-mono
+The default version of wine-mono in Proton version 6.3-1 (wine-mono version 6.1.1) will run the Elite Dangerous Launcher; however, you will need to create the 'evidencehere' directory manually. The following command (using protontricks) should work for most set-ups:
 
-instead of dotnet.
+`protontricks -c 'mkdir ../../compatdata/359320/pfx/drive_c/users/steamuser/Local\ Settings/Application\ Data/Elite\ Dangerous\ Launcher_evidencehere' 359320`
 
-You can install either of these:
+Without creating this directory you will see the following error:
+
+![](https://user-images.githubusercontent.com/8346438/112704443-b7168880-8eee-11eb-8bc3-d32c7e7c964c.png)
+
+You can alternatively use a custom version of wine-mono, which will create this directory for you automatically.
+
+# Install Custom Version
+You can do this either:
 1. [with protontricks](#with-protontricks); or
 2. [manually](#manually)
 
-But with both options you must the install msi. Below are links to download the:
-1. [custom msi](https://github.com/redmcg/wine-mono/releases/download/wine-mono-6.1.0_ED/wine-mono-6.1.0_ED-x86.msi); or
-2. [official msi](https://github.com/madewokherd/wine-mono/releases/download/wine-mono-6.1.0/wine-mono-6.1.0-x86.msi)
-
-Note that the official msi currently requires the manual creation of the 'evidencehere' directory. Otherwise you will get the following error:
-
-![](https://user-images.githubusercontent.com/8346438/112704443-b7168880-8eee-11eb-8bc3-d32c7e7c964c.png)
+But you must the install msi. Below is the link to wine-mono version 6.1.0_ED:
+[custom msi](https://github.com/redmcg/wine-mono/releases/download/wine-mono-6.1.0_ED/wine-mono-6.1.0_ED-x86.msi)
 
 Note that if you were previously using dotnet, you should start with a clean prefix (by deleting or moving the existing one).
 
