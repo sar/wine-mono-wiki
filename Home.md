@@ -13,7 +13,7 @@ You may also see the following exception:
 
 But this can be safely ignored (by clicking 'Continue').
 
-You can alternatively use a custom version of wine-mono, which will create this directory for you automatically.
+You can alternatively use a custom version of wine-mono, which will create this directory (and ignore the other exception) for you automatically.
 
 # Install Custom Version
 You install the customer version of wine-mono either:
