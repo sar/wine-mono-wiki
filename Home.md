@@ -7,6 +7,12 @@ Without creating this directory you will see the following error:
 
 ![](https://user-images.githubusercontent.com/8346438/112704443-b7168880-8eee-11eb-8bc3-d32c7e7c964c.png)
 
+You may also see the following exception:
+
+![image](https://user-images.githubusercontent.com/8346438/113377991-956f4280-93c1-11eb-857b-3cd1e2f08065.png)
+
+But this can be safely ignored (by clicking 'continue').
+
 You can alternatively use a custom version of wine-mono, which will create this directory for you automatically.
 
 # Install Custom Version
