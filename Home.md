@@ -16,7 +16,7 @@ But this can be safely ignored (by clicking 'Continue').
 You can alternatively use a custom version of wine-mono (which no longer needs this directory).
 
 # Install Custom Version
-You install the customer version of wine-mono either:
+You install the custom version of wine-mono either:
 1. [with protontricks](#with-protontricks); or
 2. [manually](#manually)
 
