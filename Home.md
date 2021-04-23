@@ -21,7 +21,7 @@ You install the custom version of wine-mono either:
 2. [manually](#manually)
 
 But you must first download the msi. Either:
-- [wine-mono version 6.1.99](https://github.com/madewokherd/wine-mono/suites/2561635479/artifacts/55812061) (this is the latest development version from the official wine-mono repository at the time of writing; specifically commit 90fd1a4. You can check for a more recent version [here](https://github.com/madewokherd/wine-mono/actions)); or
+- [wine-mono version 6.1.99](https://github.com/madewokherd/wine-mono/suites/2561635479/artifacts/55812061) (this is the latest development version from the official wine-mono repository at the time of writing; specifically commit 90fd1a4. You can check for a more recent version [here](https://github.com/madewokherd/wine-mono/actions). Note that the download is a ZIP file with the MSI in it); or
 - [wine-mono version 6.1.1_ED](https://github.com/redmcg/wine-mono/releases/download/wine-mono-6.1.1_ED/wine-mono-6.1.1_ED-x86.msi) (this is an older development version compiled by me with the distingishing version of 6.1.1_ED)
 
 Note that if you were previously using dotnet, you should start with a clean prefix (by deleting or moving the existing one).
