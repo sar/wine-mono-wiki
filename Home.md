@@ -31,12 +31,12 @@ There's four steps:
 1. click 'Play' and let the game launch and fail;
 2. `protontricks -c 'wine64 uninstaller' 359320`
 3. Uninstall any existing version of 'Wine Mono Runtime' (by selecting it and clicking 'Remove')
-4. Click 'Install...' and select wine-mono-6.1.1_ED-x86.msi (or wine-mono-6.1.1-x86.msi)
+4. Click 'Install...' and select wine-mono-6.1.1_ED-x86.msi (or wine-mono-6.1.99-x86.msi)
 
 ## manually
 There's two steps:
 1. Set your wine prefix (example: `export WINEPREFIX=_<path_to_steam>_/steamapps/compatdata/359320/pfx`); and
-2. Run msiexec (example: `_<path_to_steam>_/steamapps/common/Proton\ 5.13/dist/bin/wine64 msiexec /i _<path_to_msi>_/wine-mono-6.1.1_ED-x86.msi` (or wine-mono-6.1.1-x86.msi)
+2. Run msiexec (example: `_<path_to_steam>_/steamapps/common/Proton\ 5.13/dist/bin/wine64 msiexec /i _<path_to_msi>_/wine-mono-6.1.1_ED-x86.msi` (or wine-mono-6.1.99-x86.msi)
 
 # Known Issues
 ## Launcher Closing
